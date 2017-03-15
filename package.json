@@ -1,0 +1,20 @@
+{
+  "name": "surplus-loader",
+  "version": "0.0.1",
+  "description": "Webpack loader for Surplus.js applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "surplus": "../surplus/packages/surplus-preprocessor"
+  },
+  "keywords": [
+    "surplus",
+    "webpack",
+    "JSX",
+    "DOM"
+  ],
+  "author": "Adam Haile",
+  "license": "MIT"
+}
