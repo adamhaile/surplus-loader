@@ -1,12 +1,12 @@
 {
   "name": "surplus-loader",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Webpack loader for Surplus.js applications",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "peerDependencies": {
+  "dependencies": {
     "surplus-preprocessor": "^0.4.3"
   },
   "keywords": [
