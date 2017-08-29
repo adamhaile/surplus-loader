@@ -1,21 +1,30 @@
 {
   "name": "surplus-loader",
-  "version": "0.4.4",
-  "description": "Webpack loader for Surplus.js applications",
+  "version": "0.4.5",
+  "description": "A webpack loader for compiling Surplus JSX views",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "surplus-preprocessor": "^0.4.3"
+    "surplus-preprocessor": "^0.4.3",
+    "source-map": "^0.5.6"
   },
   "keywords": [
     "surplus",
     "webpack",
     "loader",
     "JSX",
-    "DOM"
+    "DOM",
+    "s-js"
   ],
   "author": "Adam Haile",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamhaile/surplus-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adamhaile/surplus-loader/issues"
+  }
 }
