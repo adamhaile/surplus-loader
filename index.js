@@ -1,10 +1,10 @@
 "use strict";
 
-var preprocessor = require("surplus-preprocessor"),
+var compiler = require("surplus/compiler"),
     sourcemap = require('source-map');
 
 module.exports = function preprocess(content, incomingMap) {
-    var { src, map } = preprocessor.preprocess(content, { sourcemap: "extract" });
+    var { src, map } = compiler.compile(content, { sourcemap: "extract" });
 
     map.sources[0] = this.resourcePath;
 
